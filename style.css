@@ -1,0 +1,313 @@
+body{
+            font: 15px/1.5 Arial;
+            color: #ffffff;
+            background-color: #ffffff;
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            width: 96%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header{
+            border-bottom: 3px solid #e8491d;
+            background-color: #35424a;
+        }
+        header .heading{
+            float: left;
+            display: inline-block;
+        }
+        header p{
+            float: right;
+            padding-top: 15px;
+            padding-bottom: 5px;
+            display: inline-block;
+        }
+        #top{
+            background:url('sunset~3.jpg') no-repeat;
+            background-position: center;
+            background-size: cover;
+            background-color: #787878;
+            border-bottom: 3px solid #e8491d;
+        }
+        #myTitle{
+            width: 68%;
+            height: 200px;
+            float: right;
+            margin-right: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align: center;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+        }
+        #name{
+            color: #22292e;
+            margin: 5px;
+            width: 68%;
+            height: 185px;
+            float: left;
+            background: transparent;
+            backdrop-filter: blur(100px);
+            border: 2px solid #000000;
+        }
+        #name h1{
+            font-size: 25px;
+        }
+        #bonus{
+            margin: 5px;
+            width: 27%;
+            height: 185px;
+            float: right;
+            border: 2px solid #000000;
+        }
+        #bonus button{
+            margin: 10px;
+			padding-left: 10px;
+			padding-right: 10px;
+            height: 50px;
+            border: 2px solid #000000;
+            background: transparent;
+            backdrop-filter: blur(100px);
+            box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+			font-weight: bold;
+			color: #ffffff;
+        }
+        #bonus div{
+            margin: 10px;
+            height: 90px;
+            border: 2px solid #000000;
+            background: transparent;
+            backdrop-filter: blur(100px);
+            box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+        }
+        #pic{
+            width: 27%;
+            height: 200px;
+            float: left;
+            margin-left: 10px;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            background:url('IMG2.jpg') no-repeat;
+            background-position: center;
+            background-size: cover;
+            box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+        }
+        #bottom{
+            background-color: #787878;
+            background:url('grass3.jpg') no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+        #homeContent{
+            background-color: #787878;
+            width:69%;
+            height: 500px; 
+            float: right;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            text-align:center;
+            background: transparent;
+            backdrop-filter: blur(100px);
+            border: 2px solid #000000;
+        }
+        #homeContent h1{
+            font-size: 45px;
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        #homeContent p{
+            padding-left: 5%;
+            padding-right: 5%;
+        }
+        #menu{
+            background-color: #787878;
+            width:28%;
+            height: 500px;
+            float: left;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            border: 2px solid #000000;
+            background: transparent;
+            backdrop-filter: blur(50px);
+        }
+        #menu ul{
+            list-style-type: none;
+            padding: 0;
+        }
+        #menu a{
+            color:#ffffff;
+            text-transform: uppercase;
+        }
+        .buttons{
+            border: 2px solid #000000;
+            background-color: #35424a;
+            text-align:center;
+            width:80%;
+            margin-left: 9%;
+            margin-right: 9%;
+            margin-bottom: 5%;
+            padding: 2px;
+        }
+        #current a{
+			color:#e8491d;
+        }
+        #bonus div, #bonus button, #pic, #myTitle, #name, #bonus, #menu, #homeContent, .buttons{
+            border-radius: 30px;
+        }
+        footer{
+            color: #ffffff;
+            border-top: 3px solid #e8491d;
+            background-color: #35424a;
+            text-align: center;
+        }
+		footer a{
+			color: #ffffff;
+			font-weight: bold;
+		}
+
+@media(max-width: 768px){
+
+header{
+    border-bottom: 3px solid #e8491d;
+    background-color: #35424a;
+    text-align:center;
+    }
+    header .heading{
+    float: none;
+    }
+    header p{
+    float: none;
+    padding-top: 15px;
+    padding-bottom: 5px;
+    }
+    #top{
+    background:url('sunset~3.jpg') repeat;
+    background-position: center;
+    background-size: cover;
+    background-color: #787878;
+    border-bottom: 3px solid #e8491d;
+    }
+    #myTitle{
+    width: 94%;
+    height: 500px;
+    float: none;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-bottom: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+    padding: 5px;
+    }
+    #name{
+    color: #22292e;
+    margin-bottom: 20px;
+    width: 94%;
+    float: none;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    border: 2px solid #000000;
+    padding-bottom: 50px;
+    }
+    #name h1{
+    font-size: 25px;
+    }
+    #bonus{
+    width: 94%;
+    float: none;
+    border: 2px solid #000000;
+    padding-bottom: 40px;
+    }
+	#bonus button{
+    margin-top: 20px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border: 2px solid #000000;
+	background: transparent;
+	backdrop-filter: blur(100px);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+	font-weight: bold;
+	color: #ffffff;
+	}
+    #bonus div{
+    margin-top: 20px;
+    margin-bottom: 20px;
+	border: 2px solid #000000;
+	background: transparent;
+	backdrop-filter: blur(100px);
+	box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+	}
+    #pic{
+    width: 94%;
+    height: 200px;
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background:url('IMG2.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
+    }
+    #bottom{
+    background-color: #787878;
+    background:url('grass3.jpg') no-repeat;
+    background-position: center;
+    background-size: cover;
+    }
+    #homeContent{
+    background-color: #787878;
+    width:94%;
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 40px;
+    text-align:center;
+    background: transparent;
+    backdrop-filter: blur(100px);
+    border: 2px solid #000000;
+    }
+    #homeContent h1{
+    font-size: 45px;
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+    #homeContent p{
+    padding-left: 1%;
+    padding-right: 1%;
+    }
+    #menu{
+    background-color: #787878;
+    width:94%;
+    height: 550px;
+    float: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 2px solid #000000;
+    background: transparent;
+    backdrop-filter: blur(50px);
+	height: flex;
+    }
+    #menu ul{
+    list-style-type: none;
+    }
+    #menu a{
+    color:#ffffff;
+    text-transform: uppercase;
+    }
+    .buttons{
+    border: 2px solid #000000;
+    background-color: #35424a;
+    text-align:center;
+    width:80%;
+    margin-left: 9%;
+    margin-right: 9%;
+    margin-bottom: 5%;
+    padding: 2px;
+    }
+    #current a{
+	color:#e8491d;
+    }
+    #bonus div, #pic, #myTitle, #name, #bonus, #menu, #homeContent, .buttons{
+    border-radius: 30px;
+    }
+}
