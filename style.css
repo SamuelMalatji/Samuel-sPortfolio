@@ -101,9 +101,8 @@ body{
         }
         #homeContent{
             background-color: #787878;
-            width:69%;
-            height: 500px; 
-            float: right;
+            width: 98%;
+            height: 500px;
             margin-top: 20px;
             margin-bottom: 20px;
             text-align:center;
@@ -122,17 +121,18 @@ body{
         }
         #menu{
             background-color: #787878;
-            width:28%;
-            height: 500px;
-            float: left;
-            margin-top: 20px;
-            margin-bottom: 20px;
-            border: 2px solid #000000;
+	    padding-top: 5px;
+	    border-bottom: 3px solid #e8491d;
             background: transparent;
             backdrop-filter: blur(50px);
         }
+        #menu li{
+            display:inline;
+            padding: 0 20px 0 20px;
+        }
         #menu ul{
             list-style-type: none;
+            text-align:center;
             padding: 0;
         }
         #menu a{
@@ -144,13 +144,12 @@ body{
             background-color: #35424a;
             text-align:center;
             width:80%;
-            margin-left: 9%;
-            margin-right: 9%;
+            margin-top: 5%;
             margin-bottom: 5%;
             padding: 2px;
         }
         #current a{
-			color:#e8491d;
+	    color:#e8491d;
         }
         #bonus div, #bonus button, #pic, #myTitle, #name, #bonus, #menu, #homeContent, .buttons{
             border-radius: 30px;
