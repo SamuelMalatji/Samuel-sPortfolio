@@ -151,7 +151,7 @@ body{
         #current a{
 	    color:#e8491d;
         }
-        #bonus div, #bonus button, #pic, #myTitle, #name, #bonus, #menu, #homeContent, .buttons{
+        #bonus div, #bonus button, #pic, #myTitle, #name, #bonus, #homeContent, .buttons{
             border-radius: 30px;
         }
         footer{
