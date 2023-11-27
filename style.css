@@ -67,8 +67,7 @@ body{
 	    padding-right: 10px;
             height: 50px;
             border: 2px solid #000000;
-            background: transparent;
-            backdrop-filter: blur(100px);
+            background-color: #7a7168;
             box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
 	    font-weight: bold;
 	    color: #ffffff;
@@ -77,8 +76,7 @@ body{
             margin: 10px;
             height: 90px;
             border: 2px solid #000000;
-            background: transparent;
-            backdrop-filter: blur(100px);
+            background-color: #7a7168;
             box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
         }
         #pic{
@@ -94,21 +92,18 @@ body{
             box-shadow: 0 0 10px 0 rgba(0,0,0,.9);
         }
         #bottom{
-            background-color: #787878;
             background:url('grass3.jpg') no-repeat;
             background-position: center;
             background-size: cover;
         }
         #homeContent{
 	    margin: auto;
-            background-color: #787878;
+            background-color: #7a7168;
             width: 98%;
             height: 500px;
             margin-top: 20px;
             margin-bottom: 20px;
             text-align:center;
-            background: transparent;
-            backdrop-filter: blur(100px);
             border: 2px solid #000000;
         }
         #homeContent h1{
@@ -121,11 +116,9 @@ body{
             padding-right: 5%;
         }
         #menu{
-            background-color: #787878;
+            background-color: #7a7168;
 	    padding-top: 5px;
 	    border-bottom: 3px solid #e8491d;
-            background: transparent;
-            backdrop-filter: blur(50px);
         }
         #menu li{
             display:inline;
